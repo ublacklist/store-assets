@@ -17,3 +17,8 @@ files:
     translation: /store-assets/%two_letters_code%/chrome/screenshots/%original_file_name%
     dest: /store-assets/chrome/screenshots/%original_file_name%
     languages_mapping: *languages_mapping
+
+  - source: /edge/screenshots/*
+    translation: /store-assets/%two_letters_code%/edge/screenshots/%original_file_name%
+    dest: /store-assets/edge/screenshots/%original_file_name%
+    languages_mapping: *languages_mapping
