@@ -22,7 +22,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Crowdin
+      - name: Run crowdin
         uses: crowdin/github-action@ce33ce793a5cbc401d9cd748716e03fc90c001f1 # v2.15.2
         env:
           CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_PROJECT_ID }}
